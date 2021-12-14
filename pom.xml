@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.example</groupId>
-	<artifactId>log4j2-demo</artifactId>
+	<groupId>com.govanguard</groupId>
+	<artifactId>log4jBroke</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>log4j2-demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>log4Broke</name>
+	<description>Spring boot page made intentionally vulnerable to the log4j shell attack. Logs user-agent header and form/query parameters.</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
