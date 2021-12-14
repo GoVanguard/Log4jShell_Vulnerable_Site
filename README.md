@@ -2,7 +2,7 @@
 
 Warning: Do not use this for anything important! This website is intentionally vulnerable to CVE-2021-44228
 
-The source code in this repository provides people with a web application containing the Log4jShell Common Vulnerability and Exposures (CVE)-2021-44228. It is best practice to isolate this instance from all other corporate resources. Do not connect this resource to any resource group within your AzureAD, Amazon AWS, Google Cloud, IBM Cloud Computing Provider, remote, or on-prem servers.
+The source code in this repository provides people with a web application containing the Log4jShell Common Vulnerability and Exposures (CVE)-2021-44228. It is best practice to isolate this instance from all other corporate resources. Do not connect this resource to any resource group within your AzureAD, Amazon AWS, Google Cloud, IBM Cloud Computing Provider, remote, or on-prem servers. This system is issued as is under the GNU General Public License, version 3 (GPL3)
 
 # TLDR
 
