@@ -6,9 +6,16 @@ The source code in this repository provides GoVanguard clients with a web applic
 
 # TLDR
 
+Start hosting vulnerable website:
+
 ```shell
 sudo bash runIt.sh
 ```
+Stop hosting vulnerable website:
+
+```shell
+sudo bash stopIt.sh
+```
 
 # Introduction
-The Log4jShell vulnerability was d
+The Log4jShell vulnerability was initially discovered by Minecraft gaming enthusiasts during Thanksgiving Recess, which occurred sometime between 20-23 November 2021. AliBaba, Mitre, and
