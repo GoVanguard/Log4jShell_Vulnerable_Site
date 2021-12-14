@@ -17,19 +17,17 @@ import org.apache.logging.log4j.Logger;
 public class Log4j2DemoController {
     private static final Logger logger = LogManager.getLogger(Log4j2DemoController.class);
 
-	@GetMapping("/hello")
-	//public String getHello(Model model) {
-    public String getHello(@RequestHeader("user-agent") String userAgent, Model model) {
-		model.addAttribute("hello","Hello Spring Boot User");
+	@GetMapping("/")
+    public String getForm(@RequestHeader("user-agent") String userAgent, Model model) {
         logger.debug("Logged the following user-agent:");
         logger.debug(userAgent);
-		return "hello";
+		return "inputForm";
 	}
 
-    @GetMapping("/")
-    public String getForm(Model model) {
-        return "inputForm";
-    }
+    //@GetMapping("/")
+    //public String getForm(Model model) {
+    //    return "inputForm";
+   // }
 
     @PostMapping("/saveDetails") 
     public String saveDetails(@RequestParam("testInput") String testInput, ModelMap modelMap) {
