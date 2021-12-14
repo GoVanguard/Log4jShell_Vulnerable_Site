@@ -18,9 +18,7 @@ public class Log4j2DemoController {
     private static final Logger logger = LogManager.getLogger(Log4j2DemoController.class);
 
 	@GetMapping("/")
-    public String getForm(@RequestHeader("user-agent") String userAgent, Model model) {
-        logger.debug("Logged the following user-agent:");
-        logger.debug(userAgent);
+    public String getForm(Model model) {
 		return "inputForm";
 	}
 
@@ -30,10 +28,12 @@ public class Log4j2DemoController {
    // }
 
     @PostMapping("/saveDetails") 
-    public String saveDetails(@RequestParam("testInput") String testInput, ModelMap modelMap) {
+    public String saveDetails(@RequestParam("testInput") String testInput, @RequestHeader("user-agent") String userAgent, ModelMap modelMap) {
         modelMap.put("testInput", testInput);
         logger.debug("Logged the following test input:");
         logger.debug(testInput);
+        logger.debug("Logged the following user-agent:");
+        logger.debug(userAgent);
         return "submittedView";
     }
 }
