@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>log4j shell vulnerable site</title>
+    <title>Log4Broke - log4j shell vulnerable site</title>
 </head>
 <body>
 <h2>Below field is logged</h2>
