@@ -17,8 +17,10 @@
 </div>
 <p>Warning: Do not use this for anything important! This website is intentionally vulnerable to CVE-2021-44228<p>
 <br>
-<p>The source code in this repository provides GoVanguard clients with a web application containing the Log4jShell Common Vulnerability and Exposures (CVE)-2021-44228. It is best practice to isolate this instance from all other corporate resources. Do not connect this resource to any resource group within your AzureAD, Amazon AWS, Google Cloud, IBM Cloud Computing Provider, remote, or on-prem servers.</p>
-<a href="https://github.com/GoVanguard/Log4jShell_Vulnerable_Site">Source Code</a>
+<p>The source code in this repository provides people with a web application containing the Log4jShell Common Vulnerability and Exposures (CVE)-2021-44228. It is best practice to isolate this instance from all other corporate resources. Do not connect this resource to any resource group within your AzureAD, Amazon AWS, Google Cloud, IBM Cloud Computing Provider, remote, or on-prem servers.</p>
+<a href="https://github.com/GoVanguard/Log4jShell_Vulnerable_Site">Website Source Code</a>
+<p>The source code in the repository cited below provides people with a web application scanner capable of detecting CVE-2021-44228.</p>
+<a href="https://github.com/GoVanguard/Log4jShell_Scanner">Scanner Source Code</a>
 </div>
 </main>
 </body>
