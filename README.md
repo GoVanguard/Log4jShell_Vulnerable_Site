@@ -1,4 +1,4 @@
-# log4jShell Vulnerable Site
+# Log4Broke - log4jShell Vulnerable Site
 
 Warning: Do not use this for anything important! This website is intentionally vulnerable to CVE-2021-44228
 
